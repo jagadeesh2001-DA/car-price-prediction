@@ -1,0 +1,18 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+
+
+
+💡 Explanation:
+
+pandas → for data loading, cleaning, and manipulation
+numpy → for numerical operations and array handling
+scikit-learn → for LinearRegression, StandardScaler, and train_test_split
+matplotlib → for visualization
+seaborn → for enhanced plots and correlation heatmaps
+jupyter → to run the .ipynb file interactively
+
