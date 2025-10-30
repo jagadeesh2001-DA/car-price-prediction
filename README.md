@@ -1,24 +1,63 @@
-# car-price-prediction
-A machine learning project that predicts used car selling prices using Linear Regression. It analyzes factors like brand, vehicle age, mileage, fuel type, transmission, and power to estimate accurate resale values and help users make informed pricing decisions.
+🚗 Car Price Prediction Using Linear Regression
+📘 Overview
 
-# Car Price Prediction using Linear Regression
+This project predicts the selling price of used cars based on various features like brand, age, mileage, fuel type, and power using Linear Regression. The goal is to help estimate fair market prices and support decision-making for car buyers and sellers.
 
-## Overview
-This project builds a **Linear Regression model** to predict the selling price of used cars based on features such as brand, vehicle age, kilometers driven, fuel type, transmission, mileage, max power, and more. The model is trained, evaluated, and tested using real-world car dataset values.
+✨ Features
 
-## Features
-- Data preprocessing and cleaning
-- Feature scaling using StandardScaler
-- Model training using Linear Regression
-- Evaluation using R² score and RMSE
-- Visualization of model performance
+✅ Data Cleaning: Handles missing values, removes units (e.g., "km", "CC") from numeric columns, and encodes categorical data.
+✅ Feature Engineering: Adds derived features like power_per_CC and encodes model names.
+✅ Model Training: Implements a Linear Regression model to predict car prices.
+✅ Scaling: Uses StandardScaler to normalize feature values.
+✅ Evaluation: Measures model performance using R² Score, MAE, and RMSE.
 
-## Technologies Used
-- Python 3
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Statsmodels
-- Joblib (for model saving/loading)
+
+⚙️ Installation
+
+Clone this repository:
+git clone https://github.com/your-username/Car_Price_Prediction.git
+cd Car_Price_Prediction
+
+Install required dependencies: pip install -r requirements.txt
+
+🚀 Usage
+
+Run the Jupyter Notebook to train and test the model:
+jupyter notebook Linear_Regression.ipynb
+
+🧠 Dataset
+
+Source: Kaggle / Custom Car Dataset
+Features Used:
+
+brand
+vehicle_age
+km_driven
+seller_type
+fuel_type
+transmission_type
+mileage_kmpl
+max_power
+seats
+power_per_CC
+model_encoded
+
+Target Variable:
+selling_price
+
+🧩 Model Details
+Algorithm Used: Linear Regression
+Feature Scaling: StandardScaler
+Train-Test Split: 80%-20%
+
+📊 Evaluation Metrics
+R² Score: Measures how well the model fits the data
+MAE (Mean Absolute Error): Average of absolute prediction errors
+RMSE (Root Mean Squared Error): Penalizes large errors
+
+📈 Results & Visualization
+Includes visual analysis of:
+Price vs. Age
+Price vs. Power
+Feature correlation heatmap
+Actual vs. Predicted price comparison
