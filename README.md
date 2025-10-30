@@ -1,4 +1,5 @@
 🚗 Car Price Prediction Using Linear Regression
+
 📘 Overview
 
 This project predicts the selling price of used cars based on various features like brand, age, mileage, fuel type, and power using Linear Regression. The goal is to help estimate fair market prices and support decision-making for car buyers and sellers.
